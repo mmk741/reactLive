@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "label": "Introduction",
+      "children": [
+        {
+          "id": "2",
+          "label": "Java Script",
+          "children": [
+            {
+              "id": "3",
+              "label": "Es6"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "label": "React Basic",
+          "children": [
+            {
+              "id": "5",
+              "label": "JSx"
+            },
+            { "id": "6", "label": "Redux" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "label": "Advance Concept",
+      "children": [
+        {
+          "id": "13",
+          "label": "Redux",
+          "children": [
+            {
+              "id": "8",
+              "label": "Toolkit"
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "label": "Hooks",
+          "children": [
+            {
+              "id": "10",
+              "label": "Custom Hook"
+            },
+            { "id": "11", "label": "Hoc" }
+          ]
+        }
+      ]
+    }
+  ]
+}

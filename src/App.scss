@@ -1,0 +1,61 @@
+
+*{
+  box-sizing: border-box;
+}
+
+.app-container{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
+}
+
+.app-layout{
+  display: flex;
+  height: 100%;
+}
+
+.app-layout__right{
+  width: 100%;
+}
+
+.content{
+  background-color: bisque;
+  padding: 20px 40px 10px 40px;
+  max-height: calc(100vh - 60px);
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+ 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+  border-radius: 10px;
+  
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+
+// below css is for another header and footer
+

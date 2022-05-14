@@ -1,0 +1,32 @@
+.tree-node{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.415rem 1rem;
+
+    span{
+        background-image: url('../../../assest//icons/icons8-arrow-24.png');
+    width: 24px;
+    height: 24px;
+    }
+
+}
+
+.tree-node-level{
+    &-0{
+        padding:0.615rem  1rem;
+    }
+    &-1{
+        padding-left: 2.5rem;
+    }
+    &-2{
+        padding-left: 4rem;
+    }
+    &-3{
+        padding-left: 5.5rem;
+    }
+    &-4{
+        padding-left: 7rem;
+    }
+
+}

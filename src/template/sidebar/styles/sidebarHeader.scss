@@ -1,0 +1,22 @@
+.sidebar-header{
+height: 60px;
+border-bottom: 1px solid   grey;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 1rem;
+
+
+&--collapsed{
+    button{
+        transform: rotate(180deg);
+    }
+}
+
+button{
+    background-image: url('../../../assest//icons/icons8-arrow-24.png');
+    width: 29px;
+    height: 25px;
+   
+}
+}
